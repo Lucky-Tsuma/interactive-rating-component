@@ -1,6 +1,6 @@
 :root {
   --color-orange: hsl(25, 97%, 53%);
-  --colot-white: hsl(0, 0%, 100%);
+  --color-white: hsl(0, 0%, 100%);
   --color-blue-circular-bg: hsl(213, 19%, 14%);
   --color-grey-text: hsl(217, 12%, 63%);
 }
@@ -63,7 +63,7 @@ body {
 
 .title {
   color: hsl(0, 0%, 100%);
-  color: var(--colot-white);
+  color: var(--color-white);
   font-weight: 700;
   font-size: large;
 }
