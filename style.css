@@ -1,0 +1,143 @@
+:root {
+  --color-orange: hsl(25, 97%, 53%);
+  --colot-white: hsl(0, 0%, 100%);
+  --color-blue-circular-bg: hsl(213, 19%, 14%);
+  --color-grey-text: hsl(217, 12%, 63%);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.row {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 11%);
+  padding: 20px;
+  border-radius: 5%;
+}
+
+/* RATING STATE */
+.rating-state {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.star,
+.title,
+#text-rating {
+  display: flex;
+  width: inherit;
+  align-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.star,
+.number {
+  border-radius: 50%;
+  padding: 10px;
+  width: fit-content;
+  background-color: hsl(213, 19%, 14%);
+  background-color: var(--color-blue-circular-bg);
+}
+
+.number:hover {
+    color: hsl(0, 0%, 100%);
+  color: var(--color-white);
+  background-color: hsl(217, 12%, 63%);
+  background-color: var(--color-grey-text);
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  color: var(--colot-white);
+  font-weight: 700;
+  font-size: large;
+}
+
+.text {
+  font-weight: 400;
+  font-size: medium;
+  color: hsl(217, 12%, 63%);
+  color: var(--color-grey-text);
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  color: hsl(217, 12%, 63%);
+  color: var(--color-grey-text);
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-submit {
+  background-color: hsl(25, 97%, 53%);
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+}
+
+#btn-submit:focus {
+    /* Remove ugly blue border upon clicking this btn */
+    box-shadow: none;
+}
+
+#btn-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  background-color: var(--color-white);
+  color: hsl(25, 97%, 53%);
+  color: var(--color-orange);
+}
+
+/* THANK YOU STATE */
+.thank-you-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-thanks,
+.selected-rating {
+  margin-bottom: 20px;
+}
+
+#btn-selected-rating {
+  background-color: hsl(213, 19%, 14%);
+  background-color: var(--color-blue-circular-bg);
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  color: hsl(25, 97%, 53%);
+  color: var(--color-orange);
+  pointer-events: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
