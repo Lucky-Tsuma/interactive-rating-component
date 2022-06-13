@@ -39,9 +39,7 @@ Thank you state
 ![thank you state](https://user-images.githubusercontent.com/55623011/173389591-dafb90cb-a33b-4158-9228-6259462b645d.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site here](https://rating-component-lucky.netlify.app/)
 
 ## My process
 
